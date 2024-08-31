@@ -8,31 +8,34 @@
 </head>
 <body>
     
-    <div id="container">
-        <form action="" id="loginForm" novalidate autocomplete="off">
-        
-            <div class="form-element">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email">
-                <div id="emailError" class="error"></div>
-            </div>
+    <div class="container">
+        <div class="main">
+            <form action="" id="loginForm" novalidate autocomplete="off">
+            
+                <div class="form-element">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    <div id="emailError" class="error"></div>
+                </div>
 
-            <div class="form-element">
-                <label for="password">Password:</label>
-                <input type="password" name="password" id="password">
-                <span id="show-hide">Show/Hide</span>
-                <div id="passwordError" class="error"></div>
-            </div>
+                <div class="form-element">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                    <span id="show-hide">Show/Hide</span>
+                    <div id="passwordError" class="error"></div>
+                </div>
 
-            <div class="form-element">
-                <label for="confirmPassword">Confirm Password:</label>
-                <input type="password" name="confirmPassword" id="confirmPassword">
-                <div id="confirmPasswordError" class="error"></div>
-            </div>
+                <div class="form-element">
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword">
+                    <div id="confirmPasswordError" class="error"></div>
+                </div>
 
-            <input type="submit" value="Login">
+                <input type="submit" value="Login">
 
-        </form>
+            </form>
+
+        </div>
     </div>
 
     <script src="script.js"></script>
